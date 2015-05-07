@@ -1,0 +1,27 @@
+#mainarea {
+	// width: $base-width;
+	// padding: 0 $base-margin;
+	margin: 0px auto;
+}
+
+.wrap {
+	width: $base-width;
+	height: 100%;
+	padding: 0 $base-margin;
+	margin: 0px auto;
+}
+.fl_l {
+	float: left;
+}
+.fl_r {
+	float: right;
+}
+.ta_l {
+	text-align: left;
+}
+.ta_r {
+	text-align: right;
+}
+.ta_c {
+	text-align: center;
+}

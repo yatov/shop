@@ -1,0 +1,144 @@
+// Brandon Grotesque
+// ----------------------------------------
+
+// $list: Brandon Grotesque, proxima_nova_cn_rgregular, pragmatica;
+
+// @each $font-face in $list  {
+//     @font-face {
+//           font-family: $font-face; font-style: normal; font-weight: normal;
+//           src: url('../fonts/#{$font-face}.eot');
+//           src: url('../fonts/#{$font-face}.eot?#iefix') format('embedded-opentype'),
+//                url('../fonts/#{$font-face}.woff') format('woff'),
+//                url('../fonts/#{$font-face}.woff2') format('woff2'),
+//                url('../fonts/#{$font-face}.ttf')  format('truetype');
+//     }
+// }
+
+
+// Bold
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/brandon_bld.eot');
+    src: url('../fonts/brandon_bld.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_bld.woff2') format('woff2'),
+         url('../fonts/brandon_bld.woff') format('woff'),
+         url('../fonts/brandon_bld.ttf') format('truetype'),
+         url('../fonts/brandon_bld.svg#brandon_grotesquebold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}   
+
+// Medium
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/brandon_med.eot');
+    src: url('../fonts/brandon_med.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_med.woff2') format('woff2'),
+         url('../fonts/brandon_med.woff') format('woff'),
+         url('../fonts/brandon_med.ttf') format('truetype'),
+         url('../fonts/brandon_med.svg#brandon_grotesquemedium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+// Regular
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/brandon_reg.eot');
+    src: url('../fonts/brandon_reg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_reg.woff2') format('woff2'),
+         url('../fonts/brandon_reg.woff') format('woff'),
+         url('../fonts/brandon_reg.ttf') format('truetype'),
+         url('../fonts/brandon_reg.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+// Proxima Nova
+// ----------------------------------------
+
+@font-face {
+    font-family: 'proxima_nova_cn_rgregular';
+    src: url('../fonts/proximanovacond-regular.eot');
+    src: url('../fonts/proximanovacond-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanovacond-regular.woff2') format('woff2'),
+         url('../fonts/proximanovacond-regular.woff') format('woff'),
+         url('../fonts/proximanovacond-regular.ttf') format('truetype'),
+         url('../fonts/proximanovacond-regular.svg#proxima_nova_cn_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light.eot');
+    src: url('../fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-light.woff2') format('woff2'),
+         url('../fonts/proximanova-light.woff') format('woff'),
+         url('../fonts/proximanova-light.ttf') format('truetype'),
+         url('../fonts/proximanova-light.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+// Pragmatica
+// ----------------------------------------
+
+@font-face {
+    font-family: pragmatica-el;
+    src: url(../fonts/pragmatica-extralight-v2.eot);
+    src: url(../fonts/pragmatica-extralight-v2.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/pragmatica-extralight-v2.woff) format('woff'),
+         url(../fonts/pragmatica-extralight-v2.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: pragmatica;
+    src: url(../fonts/pragmatica-light-v2.eot);
+    src: url(../fonts/pragmatica-light-v2.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/pragmatica-light-v2.woff) format('woff'),
+         url(../fonts/pragmatica-light-v2.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: pragmatica;
+    src: url(../fonts/pragmatica-regular-v2.eot);
+    src: url(../fonts/pragmatica-regular-v2.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/pragmatica-regular-v2.woff) format('woff'),
+         url(../fonts/pragmatica-regular-v2.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: pragmatica;
+    src: url(../fonts/pragmatica-medium-v2.eot);
+    src: url(../fonts/pragmatica-medium-v2.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/pragmatica-medium-v2.woff) format('woff'),
+         url(../fonts/pragmatica-medium-v2.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal
+}
+
+
+
+// Glyphicons
+// ----------------------------------------
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), 
+  url('../fonts/glyphicons-halflings-regular.woff') format('woff'), 
+  url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+  url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}

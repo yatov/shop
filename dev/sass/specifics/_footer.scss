@@ -1,0 +1,27 @@
+@import '../pages/main_page/main_page';
+
+footer {
+	width: 100%;
+	height: em(40px, $base-font-size);
+	background: #EDEDED;
+	bottom: 0;
+
+	.footer_copyright {
+		font-size: em(10px, $base-font-size);
+	}
+
+	a {
+		color: $gray-color;
+		text-decoration: none;
+		border-bottom: 1px solid transparent;
+
+		@include transition-property(border-bottom, color);
+		@include transition-duration(0.3s);
+		@include transition-timing-function(ease-out);
+
+		&:hover {
+			border-bottom: 1px solid $gray-color-light;
+			color: $gray-color-light;
+		}
+	}
+}
