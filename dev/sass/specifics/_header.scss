@@ -1,0 +1,117 @@
+@import "compass/css3";
+
+header {
+  .search_block {
+    background: #fff;
+    float: left;
+    width: 545px;
+    margin: 20px 20px 0;  
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+    input[type="text"]{
+      width: 170px;
+      height: 30px;
+      padding: 6px;
+      box-sizing: border-box;
+      float: left;
+      border-radius: 5px 0px 0px 5px;
+      border: 1px solid #aaa;
+    }
+    input[type="button"]{
+      width: 42px;
+      height: 30px;
+      padding: 6px;      
+      box-sizing: border-box;
+      background: url(../../img/magnifier.png) 8px 1px no-repeat #fff;
+      background-size: 70%;
+      border: solid #aaa;
+      border-width: 1px 1px 1px 0px;
+      border-radius: 0px 5px 5px 0px;
+    }
+    .search_type {
+      background: #a99;
+      color: #fff;
+      padding: 0px 5px;
+      cursor: pointer;
+      @param $select [none];
+    }
+  }
+  .login {
+    background: #fff;
+    float: left;
+    margin: em(20px) 0;
+    padding: em(30px) flex(30px, $base-width);
+    @include border-radius(10px);
+    input[type="submit"] {
+      padding: em(5px) flex(10px, $base-width);
+    }
+    .block {
+      p {
+        height: em(30px);
+        margin: em(5px) 0px;
+        display: block;
+
+        &:last-child {
+            height: inherit;
+        }
+        span {
+          float: left;
+          margin-top: em(4px);
+        }
+        
+        input[type="text"], input[type="password"], input[type="email"]{
+          width: flex(170px, 300px);
+          height: em(30px);
+          padding: em(6px) flex(6px, 300px);;
+          box-sizing: border-box;
+          float: right;
+        }
+        input[type="submit"] {
+          padding: em(5px) flex(10px, 300px);;
+        }
+        label {
+          width: 100%;
+          text-align: right;
+          display: block;
+          padding: 0px flex(42px, 300px) 0px 0px;
+          box-sizing: border-box;
+
+          input#remember_me {
+            margin: em(10px) flex(3px, 300px);
+          }
+        }
+      }
+      &.entered {
+        a.nick {
+          color: #05BEBE;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+        a {
+          color: #000;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+          }
+          &.exit_link {
+            color: $distinction-color;
+          }
+        }
+      }
+    }
+
+  }
+  .logo {
+    width: flex(150px, $base-width);
+    padding: em(20px) flex(20px, $base-width);
+    float: right;
+    background: #fff;
+    margin: em(22px) 0 em(20px) 0;
+    @include border-radius(10px);
+  }
+}

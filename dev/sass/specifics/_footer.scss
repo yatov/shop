@@ -1,27 +1,36 @@
-@import '../pages/main_page/main_page';
-
 footer {
 	width: 100%;
-	height: em(40px, $base-font-size);
-	background: #EDEDED;
+	padding: em(20px, $base-font-size);
+	height: em(67.5px, $base-font-size);
+	background: #fff;
 	bottom: 0;
 
 	.footer_copyright {
 		font-size: em(10px, $base-font-size);
+		margin-top: em(6px, $base-font-size);
 	}
+	.footer_navigate_wrap {
+		border-left: 1px solid black;
+  		padding-left: flex(8px, 400px);
 
-	a {
-		color: $gray-color;
-		text-decoration: none;
-		border-bottom: 1px solid transparent;
+		.footer_navigate {
+			a {
+				color: $gray-color;
+				text-decoration: none;
+				border-bottom: 1px solid transparent;
 
-		@include transition-property(border-bottom, color);
-		@include transition-duration(0.3s);
-		@include transition-timing-function(ease-out);
+				@include transition-property(border-bottom, color);
+				@include transition-duration(0.3s);
+				@include transition-timing-function(ease-out);
 
-		&:hover {
-			border-bottom: 1px solid $gray-color-light;
-			color: $gray-color-light;
+				&:hover {
+					border-bottom: 1px solid $gray-color-light;
+					color: $gray-color-light;
+				}
+			}
 		}
+	}
+	.footer_logo {
+	  	margin: em(6px) flex(5px, 405px);
 	}
 }

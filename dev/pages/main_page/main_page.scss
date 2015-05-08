@@ -1,2 +1,163 @@
 @import "compass/css3";
 
+
+
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.wrapper {
+  .head_main_menu {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    background: $white-color;
+  }
+  .main_menu {
+    width: 100%;
+    height: 295px;
+
+    .tabs {
+      position: relative;
+      overflow: hidden;
+      .tab {
+        width: 426.5px;
+        height: 295px;
+        position: relative;
+        background: url('../../img/new_banner_slide.png') no-repeat;
+        background-position: -1172px 0;
+        float: left;
+        display: inline-block;
+        margin: 0px;
+        -webkit-transition: width 0.3s 0.1s ,background-position 0.3s 0.1s;
+        -moz-transition:    width 0.3s 0.1s ,background-position 0.3s 0.1s;
+        -o-transition:      width 0.3s 0.1s ,background-position 0.3s 0.1s;
+        transition:         width 0.3s 0.1s ,background-position 0.3s 0.1s;
+        
+        ul {
+          position: absolute;
+          top: 80px;
+          right: 60px;
+          opacity: 0;
+          li {
+            display: block;
+
+            a {
+              color: #000;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+        span.text {
+          position: absolute;
+          top: 20px;
+          left: 220px;
+          color: #000;
+          text-shadow: 0px 0px 0px #000, 0px 1px 0px #aaa;
+          -webkit-transition: all 0.3s 0.1s;
+          -moz-transition:    all 0.3s 0.1s;
+          -o-transition:      all 0.3s 0.1s;
+          transition:         all 0.3s 0.1s;
+          &:hover {
+            text-decoration: underline;
+          }
+          &.active {
+            left: 297px;
+          }
+          &.not_active {
+            left: 170px;
+          }
+        }
+        &:nth-child(1){
+          z-index: 300;
+        }
+        &:nth-child(2){
+          z-index: 200;
+          margin-left: -140px;
+          img {
+            margin-left: -150px;
+            -webkit-transition: margin-left 0.3s 0.1s;
+            -moz-transition:    margin-left 0.3s 0.1s;
+            -o-transition:      margin-left 0.3s 0.1s;
+            transition:         margin-left 0.3s 0.1s;
+          }
+        }
+        &:nth-child(3){
+          z-index: 100;
+          margin-left: -140px;
+          background-position: -926px 0!important;
+          img {
+            margin-left: -70px;
+            -webkit-transition: margin-left 0.3s 0.1s;
+            -moz-transition:    margin-left 0.3s 0.1s;
+            -o-transition:      margin-left 0.3s 0.1s;
+            transition:         margin-left 0.3s 0.1s;
+          }
+        }
+      }
+      .active.tab {
+        width: 560px;
+        background: url('../../img/new_banner_slide_active.png') no-repeat;
+        background-position: -1040px 0px;
+
+        ul {
+          opacity: 1;
+           -webkit-transition: all 0.5s 0.2s;
+           -moz-transition:    all 0.5s 0.2s;
+           -o-transition:      all 0.5s 0.2s;
+           transition:         all 0.5s 0.2s;
+        }
+        img {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+  .menu {
+    width: 100%;
+
+    ul {
+      display: table-row;
+      height: 30px;
+
+      li {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        height: 30px;
+        // border-right: 1px dashed #000;
+        background: #ACABAB;
+        
+        &:first-child {
+          border-radius: 0px 0px 0px 10px;
+        }
+        &:last-child {
+          border-right: 0px;
+          border-radius: 0px 0px 10px 0px;
+        }
+        &:hover {
+          background: #05BEBE;
+        }
+
+        a {
+          display: table-cell;
+          width: 1000px;
+          vertical-align: middle;
+          white-space: pre;
+          text-decoration: none;
+          height: 30px;
+          color: $white-color;
+        }
+        &.active{
+          background: #05BEBE; 
+        }
+      }
+    }
+  }
+  
+}

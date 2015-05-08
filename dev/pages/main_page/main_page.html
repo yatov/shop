@@ -17,7 +17,124 @@
         <![endif]-->
     </head>
     <body class="main_page">
-        <div id="mainarea" class="main_page_wrap">
+      <div class="container">
+    <header>
+    <div class="login">
+        <form action="" method="POST">
+          
+            <div class="block entered">
+                <p>Здравствуй, <a href="#" class="nick">Admin</a> </p>
+                <p><a href="#" class="exit_link">Выйти</a></p>
+            </div>
+
+
+
+            <!-- <h3>Войти</h3>
+            <div class="block enter">
+            <p><span>Имя пользователя: </span><input id="log" type="text" name="log" size="25"></p>
+            <p><span>Пароль: </span><input id="pwd" type="password" name="pwd" size="25"></p>
+            <p><label for="remember_me"><input type="checkbox" id="remember_me">Запомнить меня</label></p>
+            <p>
+            <a href="#">Забыли пароль?</a>
+
+            </p>
+            <p><input type="submit" value="Войти"></p>
+            </div>
+            <a href="#">Зарегистрироваться</a> -->
+        
+            <div class="block registration" style="display: none">
+                <p><span>Имя пользователя: </span><input type="text"></p>
+                <p><span>Имя: </span><input type="text"></p>
+                <p><span>Фамилия: </span><input type="text"></p>
+                <p><span>Пароль: </span><input type="password"></p>
+                <p><span>Повторите пароль: </span><input type="password"></p>
+                <p><span>e-mail: </span><input type="email"></p>
+
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+              
+            </form>
+        </div>
+        <div>
+            <form class="search_block" role="search" method="" id="searchform" action="http://localhost/">
+                <span class="fl_l">Поиск по 
+                    <select name="logic">
+                        <option value="1">атрибуту</option>
+                        <option value="2">названию</option>
+                    </select>
+                </span>
+                <span class="fl_r">
+                    <input type="text" value="" name="search" id="search">
+                    <input type="button" id="searchsubmit" value="">
+                </span>
+            </form>
+        </div>
+        <div class="logo">
+            <a href="#">
+                <img src="../../img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+    <div class="wrapper">
+      <div class="head_main_menu"></div>
+      <div class="main_menu">
+        <div class="tabs">
+          <div class="tab">
+          <img src="../../img/new_banner_1_ru.png" alt="">
+            <span class="text">Каталог продукции</span>
+            <ul>
+              <li><a href="#">По поставщикам</a></li>
+              <li><a href="#">По категориям автозапчастей</a></li>
+            </ul>
+          </div>
+          <div class="tab">
+            <a href="#">
+              <img src="../../img/new_banner_2.png" alt="">
+              <span class="text">Оптовые продажи</span>
+            </a>
+          </div>
+          <div class="tab fl_r">
+            <a href="#">
+              <img src="../../img/new_banner_3.png" alt="">
+              <span class="text">Розничная торговля</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="active"><a href="#">Главная</a></li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </div>
+        <div class="posts">
+            <!-- <div class="add_post">
+                <div class="add">Добавить пост</div>
+                <form action="" method="POST" id="write_post">
+                    <input type="text" id="post_name" placeholder="Название поста">
+                    <textarea name="" id="post_text" cols="30" rows="10" placeholder="Текст поста"></textarea>
+                    <input type="submit" id="post_submit">
+                </form>
+            </div> -->
+
+            <div class="post">
+                <h3>Привет, мир!</h3><span>13.03.2015</span>
+                <p>Добро пожаловать. Это ваша первая запись. Отредактируйте или удалите её, затем пишите!</p>
+            </div>
+
+            <div class="post">
+                <h3>Привет!</h3><span>8.05.2015</span>
+                <p>Это ваша вторая запись. Отредактируйте или удалите её, затем пишите!</p>
+            </div>
+        
+        </div>
+          </div>
+  </div>
+<!--         <div id="mainarea" class="main_page_wrap">
             <header class="header">
                 <div class="wrap">
                 
@@ -31,12 +148,12 @@
 
             </section>
 
-        </div>
+        </div> -->
         <footer class="footer">
             <div class="wrap">
-                <!-- <a href="#" class="footer_logo fl_l">
-                    <img src="/img/logo_gray.png" width="100" height="22" alt="">
-                </a> -->
+                <a href="#" class="footer_logo fl_l">
+                    <img src="../../img/logo2.png" width="128" height="23" alt="">
+                </a>
                 <div class="footer_navigate_wrap fl_l">
                     <nav class="footer_navigate nav">
                         <a href="#">Главная</a>

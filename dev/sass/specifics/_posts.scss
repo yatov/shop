@@ -1,0 +1,69 @@
+@import "compass/css3";
+
+.posts {
+    width: 100%;
+    background: $white-color;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+
+    .post {
+		margin-bottom: 20px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+    	h3 {
+			margin-bottom: 10px;
+			display: inline;
+			margin-right: 10px;
+			font-family: 'Brandon Grotesque';
+			font-weight: 300;
+			font-size: em(20px, $base-font-size);
+			line-height: 1;
+	    }
+	    p {
+			margin-top: 10px;
+	    }
+	    span {
+			font-size: 10px;
+			color: #999;
+	    }
+    }
+    .add_post {
+      .add {
+        background: url('../../img/plus.png') no-repeat;
+        background-size: contain;
+        width: 200px;
+        height: 24px;
+        padding: 6px 0px 0px 35px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #9A9A9A;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      #write_post {
+        display: none;
+        textarea#post_text {
+          width: 100%;
+          min-height: 100px;
+          resize: none;
+          margin: 10px 0px;
+          box-sizing: border-box;
+          padding: 10px;
+        }
+        input[type="text"] {
+          width: 170px;
+          height: 30px;
+          padding: 6px;
+          box-sizing: border-box;
+        }
+        input[type="submit"] {
+          padding: 5px 10px;
+        }
+      }
+    }
+  }

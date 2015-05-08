@@ -1,0 +1,237 @@
+/* line 6, ../../../dev/pages/main_page/main_page.scss */
+.container {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+/* line 12, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .head_main_menu {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px 10px 0px 0px;
+  background: #fff;
+}
+/* line 18, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu {
+  width: 100%;
+  height: 295px;
+}
+/* line 22, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs {
+  position: relative;
+  overflow: hidden;
+}
+/* line 25, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab {
+  width: 426.5px;
+  height: 295px;
+  position: relative;
+  background: url("../../img/new_banner_slide.png") no-repeat;
+  background-position: -1172px 0;
+  float: left;
+  display: inline-block;
+  margin: 0px;
+  -webkit-transition: width 0.3s 0.1s ,background-position 0.3s 0.1s;
+  -moz-transition: width 0.3s 0.1s ,background-position 0.3s 0.1s;
+  -o-transition: width 0.3s 0.1s ,background-position 0.3s 0.1s;
+  transition: width 0.3s 0.1s ,background-position 0.3s 0.1s;
+}
+/* line 39, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab ul {
+  position: absolute;
+  top: 80px;
+  right: 60px;
+  opacity: 0;
+}
+/* line 44, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab ul li {
+  display: block;
+}
+/* line 47, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab ul li a {
+  color: #000;
+  text-decoration: none;
+}
+/* line 50, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab ul li a:hover {
+  text-decoration: underline;
+}
+/* line 56, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab span.text {
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  color: #000;
+  text-shadow: 0px 0px 0px #000, 0px 1px 0px #aaa;
+  -webkit-transition: all 0.3s 0.1s;
+  -moz-transition: all 0.3s 0.1s;
+  -o-transition: all 0.3s 0.1s;
+  transition: all 0.3s 0.1s;
+}
+/* line 66, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab span.text:hover {
+  text-decoration: underline;
+}
+/* line 69, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab span.text.active {
+  left: 297px;
+}
+/* line 72, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab span.text.not_active {
+  left: 170px;
+}
+/* line 76, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab:nth-child(1) {
+  z-index: 300;
+}
+/* line 79, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab:nth-child(2) {
+  z-index: 200;
+  margin-left: -140px;
+}
+/* line 82, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab:nth-child(2) img {
+  margin-left: -150px;
+  -webkit-transition: margin-left 0.3s 0.1s;
+  -moz-transition: margin-left 0.3s 0.1s;
+  -o-transition: margin-left 0.3s 0.1s;
+  transition: margin-left 0.3s 0.1s;
+}
+/* line 90, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab:nth-child(3) {
+  z-index: 100;
+  margin-left: -140px;
+  background-position: -926px 0 !important;
+}
+/* line 94, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .tab:nth-child(3) img {
+  margin-left: -70px;
+  -webkit-transition: margin-left 0.3s 0.1s;
+  -moz-transition: margin-left 0.3s 0.1s;
+  -o-transition: margin-left 0.3s 0.1s;
+  transition: margin-left 0.3s 0.1s;
+}
+/* line 103, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .active.tab {
+  width: 560px;
+  background: url("../../img/new_banner_slide_active.png") no-repeat;
+  background-position: -1040px 0px;
+}
+/* line 108, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .active.tab ul {
+  opacity: 1;
+  -webkit-transition: all 0.5s 0.2s;
+  -moz-transition: all 0.5s 0.2s;
+  -o-transition: all 0.5s 0.2s;
+  transition: all 0.5s 0.2s;
+}
+/* line 115, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .main_menu .tabs .active.tab img {
+  margin-left: 0px;
+}
+/* line 121, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu {
+  width: 100%;
+}
+/* line 124, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul {
+  display: table-row;
+  height: 30px;
+}
+/* line 128, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul li {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  height: 30px;
+  background: #ACABAB;
+}
+/* line 136, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul li:first-child {
+  border-radius: 0px 0px 0px 10px;
+}
+/* line 139, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul li:last-child {
+  border-right: 0px;
+  border-radius: 0px 0px 10px 0px;
+}
+/* line 143, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul li:hover {
+  background: #23CDCD;
+}
+/* line 147, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul li a {
+  display: table-cell;
+  width: 1000px;
+  vertical-align: middle;
+  white-space: pre;
+  text-decoration: none;
+  height: 30px;
+  color: #fff;
+}
+/* line 156, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .menu ul li.active {
+  background: #05BEBE;
+}
+/* line 162, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts {
+  width: 100%;
+  background: #fff;
+  margin: 20px 0px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 20px;
+}
+/* line 169, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts h3 {
+  margin-bottom: 10px;
+  display: inline;
+  margin-right: 10px;
+}
+/* line 174, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts p {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #aaa;
+}
+/* line 178, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts span {
+  font-size: 10px;
+  color: #999;
+}
+/* line 183, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts .add_post .add {
+  background: url("../../img/plus.png") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 24px;
+  padding: 6px 0px 0px 35px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #9A9A9A;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+/* line 195, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts .add_post #write_post {
+  display: none;
+}
+/* line 197, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts .add_post #write_post textarea#post_text {
+  width: 100%;
+  min-height: 100px;
+  resize: none;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/* line 205, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts .add_post #write_post input[type="text"] {
+  width: 170px;
+  height: 30px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+/* line 211, ../../../dev/pages/main_page/main_page.scss */
+.wrapper .posts .add_post #write_post input[type="submit"] {
+  padding: 5px 10px;
+}
